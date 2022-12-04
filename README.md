@@ -10,7 +10,7 @@ This is a simple Java web app to get started.
 
 ### How to build and deploy
 
-If a tomcat server is already installed and running, you can build and deploy the app with one of the followind methods:
+If a tomcat server is already installed and running, you can build and deploy the app with one of the following methods:
 
 #### Deploy with maven
 
@@ -18,8 +18,8 @@ Before deploying with maven, add the following to your `settings.xml` file.
 
 There are two locations where the settings.xml file may be found:
 
-* The Maven install: ${maven.home}/conf/settings.xml
-* A user’s install: ${user.home}/.m2/settings.xml
+* The Maven install: ```${maven.home}/conf/settings.xml```
+* A user’s install: ```${user.home}/.m2/settings.xml```
 
 ```xml
     <server>
